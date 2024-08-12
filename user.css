@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#030377fb,#490149fd);
+    font-size: 1rem;
+    
+}
+.component{
+    background-color: white;
+    width: 100%;
+    max-width: 360px;
+    margin: 3em auto 0;
+    padding:  1.5em 0 1em 0;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(100px);
+    border-radius: 3px;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user1{
+    font-size: 1.5rem;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #580358;
+}
+.underline{
+    width: 30px;
+    border-radius: 8px;
+    height: 4px;
+    background-color: #580358;
+    margin-top: .3em;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em 0 1.5em 0;
+}
+.inputs{
+     
+     margin-top: 1em;
+     display: flex;
+     align-items: center;
+     padding: .6em 5em .6em .8em;
+     cursor: pointer;
+     background-color: #80808021;
+     border-radius: 3px;
+}
+.user-input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-left: 1em;
+    font-size: 1rem;
+}
+::placeholder{
+     font-size: .7rem;
+    letter-spacing: .3px;
+}
+.image-user{
+    width: 12px;
+    opacity: .6;
+}
+.forgot-password{
+    margin-left: 2em;
+    letter-spacing: .4px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .75rem;
+    opacity: .9;
+    }
+    .forgot-password span{
+        color: #580358;
+        cursor: pointer;
+    }
+    .forgot-password span:hover{
+        color: #580358be;
+    }
+    .forgot-password span:focus{
+        color: #580358ce;
+    }
+    .section2{
+        display: flex;
+        justify-content: center;
+        margin: 1.5em 0;
+        gap: 10px;
+    }
+    .submit{
+        background-color: rgba(3, 3, 121, 0.973);
+        color: white;
+        padding: .5em 2.5em;
+        font-size: .8rem;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .gray{
+        color: black;
+        background-color: #80808021;
+    }
+
+
+
